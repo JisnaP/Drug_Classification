@@ -1,0 +1,2 @@
+Age,Sex,Blood Pressure,Cholesterol,Na_to_K,output,timestamp
+29,F,LOW,HIGH,16.3,"{""label"": null, ""confidences"": null}",2025-04-09 13:02:51.399240
