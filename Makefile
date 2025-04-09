@@ -12,7 +12,7 @@ eval:
 	echo "## Model Metrics" >> report.md && \
 	cat ./results/metrics.txt >> report.md && \
 	echo '\n ## Confusion Matrix Plot ' >> report.md && \
-	echo '![Confusion Matrix](./results/model_results.png)' >> report.md && \
+	echo '![Confusion Matrix](./results/model_results.png)' >> report.md
 	
 update-branch:
 	git config --global user.name $(USER_NAME) && \
