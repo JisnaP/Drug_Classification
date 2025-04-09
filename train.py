@@ -55,10 +55,10 @@ from sklearn.metrics import ConfusionMatrixDisplay, confusion_matrix
 cm = confusion_matrix(y_test, predictions, labels=pipe.classes_)
 disp = ConfusionMatrixDisplay(confusion_matrix=cm, display_labels=pipe.classes_)
 disp.plot()
-plt.savefig("Results/model_results.png", dpi=120)
+plt.savefig("results/model_results.png", dpi=120)
 import skops.io as sio
 
-sio.dump(pipe, "Model/drug_pipeline.skops")
+sio.dump(pipe, "model/drug_pipeline.skops")
 #sio.load("Model/drug_pipeline.skops", trusted=True)
 
 
